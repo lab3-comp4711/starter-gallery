@@ -10,4 +10,6 @@ Changed:
 v0.01 (23-09-2016)
 Added:
     Change log @neil 
-
+    Controllers @simon
+    Views@simon
+    Starter files @simon 
