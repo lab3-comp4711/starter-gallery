@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-		<meta charset="utf-8">
-		<title>{pagetitle}</title>
+        <title>{pagetitle}</title>
         <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" type="text/css" media="all" href="/css/reset.css" />
         <link rel="stylesheet" type="text/css" media="all" href="/css/text.css" />
         <link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
@@ -22,16 +20,15 @@
                     </ul>
                 </span>
             </div>
-	</head>
-	<body>
-        <div id="container">
-			{content}
-        </div>
-         <div id="footer" class="span12">
+            <div class="alone"></div>
+            <div id="content">
+                {content}
+            </div>
+            <div id="footer" class="span12">
                 Copyright &copy; 2014,  <a href="mailto:someone@somewhere.com">Me</a>.
-        </div>
+            </div>
         </div>
         <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script> 
         <script type="text/javascript" src="js/lightbox.min.js"></script> 
-	</body>
+    </body>
 </html>
